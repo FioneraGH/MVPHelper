@@ -169,9 +169,9 @@ public class MVPHelperAction extends AnAction {
 
     private String setContractContent() {
         String className = _classModel.get_className();
-        String content = _content + "public interface "  + "View{\n}\n\n"
-                + "public interface "  + "Presenter{\n}\n\n"
-                + "public interface "  + "Model{\n}\n\n"
+        String content = _content + "interface "  + "View{\n}\n\n"
+                + "interface "  + "Presenter{\n}\n\n"
+                + "interface "  + "Model{\n}\n\n"
                 + "\n}";
 
         return content;
